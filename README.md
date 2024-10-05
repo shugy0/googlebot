@@ -25,7 +25,7 @@ python3 main.py
 - changing or removing the system prompt will impact the output - notably, if you remove the part about the tags, it will print those with every reponse
 
 # extra notes
-- rarely, the script misses a message (I blame discord). this is why I added the status updates. if you don't immediately get a reply, the script never saw the message. if it hangs on the third status update, it probably got blocked by the google AI safety filter
+- rarely, the script misses a message (I blame discord). this is why I added the status updates. if you don't immediately get a reply, the script never saw the message. if it hangs on the third status update, it probably got blocked by the google AI safety filter (you can check this in the logs)
 - this script was based on the claudebot script that I made with claude 3 opus - [shugy0/claudebot](https://github.com/shugy0/claudebot)
 - tiktoken is the fastest token counter, so even though it's using openai's tokenizer, it's close enough
 - I run mine on aws lightsail, but you can run yours locally or whatever
